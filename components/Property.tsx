@@ -54,7 +54,7 @@ const Property: FC<IProperty> = ({
                             <Image src={agency?.logo?.url } width={70} height={35} alt='logo' />
                         </div>
                     </div>
-                    <div className='flex space-x-3/5 bg-red-400 my-3'>
+                    <div className='flex space-x-3  my-3'>
                         <p>{rooms} </p>
                         <FaBed className='text-blue-400' />
                         <span>|</span>

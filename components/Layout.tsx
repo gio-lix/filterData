@@ -11,13 +11,13 @@ interface ILayout {
 const Layout: FC<ILayout> = ({children, description, keywords, title}) => {
     return (
         <>
-            <head>
+            <Head>
                 <title>{title}</title>
                 <meta name='keywords' content={keywords}/>
                 <meta name='description' content={description}/>
-            </head>
+            </Head>
             <Header/>
-            <div>
+            <div className='min-h-screen'>
                 {children}
             </div>
             <footer>
